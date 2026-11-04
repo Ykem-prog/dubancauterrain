@@ -1,0 +1,16 @@
+{
+  "name": "dubancauterrain",
+  "private": true,
+  "type": "module",
+  "description": "Site public de la prépa foot d'hiver « Du banc au terrain »",
+  "scripts": {
+    "dev": "netlify dev",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "11.1.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
